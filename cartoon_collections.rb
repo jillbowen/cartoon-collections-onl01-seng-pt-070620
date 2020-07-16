@@ -34,5 +34,8 @@ def find_the_cheese(cheddar_cheese)
   end
 end
 
+cheddar_cheese.each do |food|
+  
+
 # brothers = ["Tim", "Tom", "Jim"]
 # brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}

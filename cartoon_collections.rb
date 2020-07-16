@@ -30,6 +30,6 @@ def find_the_cheese(cheddar_cheese)
   elsif cheddar_cheese.include? ("camembert")
     return "camembert"
   else 
-    return "nil"
+    return nil
   end
 end

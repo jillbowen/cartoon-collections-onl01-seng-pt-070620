@@ -32,15 +32,11 @@ def find_the_cheese(cheddar_cheese)
   # else 
   #   return nil
   # end
-end
-
-cheddar_cheese.each do |food|
+  cheddar_cheese.each do |food|
   if cheddar_cheese.include? cheese_types
     array << food
   else
     return nil
   end
 end
-
-# brothers = ["Tim", "Tom", "Jim"]
-# brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}
+end
